@@ -15,9 +15,20 @@ This project has almost no utility for you if you're not a ONE.UF developer
 or someone trying to tinker with Folktale. It remains arguable if it has any
 utility even if you match both criteria.
 
+## How do I run this stupid thing?
+
+Be sure to fill in the `url` variable with the appropriate API URL for our
+whoami service.
+
+Then…
+```
+node whichnode.js
+```
+
 ## Observations
 * Folktale lets me use data structures not unlike Haskell's to manage my
   control flow, but stuff like pattern matching is really awkward.
 * I feel like some of these structures should be foldable. Instead of a
   pattern match, I could be using a catamorphism to yield my result.
 * `listen` on the Future feels really unlike the FP I'm used to.
+* I should do this same thing in Haskell to compare the two implementations.
