@@ -13,5 +13,14 @@
     "folktale": "^2.1.0",
     "request": "^2.87.0",
     "request-promise-native": "^1.0.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bactroid/whichnode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bactroid/whichnode/issues"
+  },
+  "homepage": "https://github.com/bactroid/whichnode#readme"
 }
